@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Notifications page</title>
+  </head>
+  <body>
+    <main>
+      <section class="Hero">
+        <!-- Header  -->
+        <div class="header">
+          <div class="left">
+            <h1 class="title">Notifications</h1>
+            <span id="notif-count" class="bold">3</span>
+          </div>
+          <div class="right" id="toggle-mark">
+            <p id='read-notif'class="read-notif">Mark all as read</p>
+          </div>
+        </div>
+
+        <!-- Profiles  -->
+        <div class="profiles" id="profile">
+          <div class="user hide-skew">
+
+            <div class="user--img">
+            <img
+              src="./assets/images/avatar-mark-webber.webp"
+              alt="mark"
+            />
+          </div>
+
+            <div class="comment">
+              <p class="user--comment">
+                <strong class="user--name-bold">Mark Webber</strong>
+                reacted to your recent post
+                <strong class="user--activity-bold">My first tournament today!</strong>
+              </p>
+              <div class="time">
+                <p>1m ago</p>
+              </div>
+            </div>
+            <div  class="red-circle">
+
+            </div>
+          </div>
+
+          <div class="user hide-skew">
+            <div class="user--img">
+            <img
+              src="./assets/images/avatar-angela-gray.webp"
+              alt="mark"
+            />
+          </div>
+            <div class="comment">
+              <p class="user--comment">
+                <strong class="user--name-bold">Angela Grey</strong>
+                followed you 
+              </p>
+              <div class="time">
+                <p>1m ago</p>
+              </div>
+              <div class="red-circle right">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="user hide-skew">
+            <div class="user--img">
+            <img
+              src="./assets/images/avatar-jacob-thompson.webp"
+              alt="mark"
+            />
+          </div>
+            <div class="comment">
+              <p class="user--comment">
+                <strong class="user--name-bold">Jacob Thompson</strong>
+                has joined your group 
+                <strong class="user--activity-bold extra-bold">Chess Club</strong>
+              </p>
+              <div class="time">
+                <p>1 day ago</p>
+              </div>
+              <div class="red-circle right-last">
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="user bg-none hide-skew" id="user">
+            <div class="user--img">
+            <img
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt="mark"
+            />
+          </div>
+            <div class="comment">
+              <p class="user--comment">
+                <strong class="user--name-bold">Rizky Hasanuddin</strong>
+                sent you a private message
+              </p>
+              <div class="time">
+                <p>5 days ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="message">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+          </div>
+
+
+        <div class="user bg-none hide-skew">
+          <div class="user--img">
+          <img
+            src="./assets/images/avatar-kimberly-smith.webp"
+            alt="mark"
+          />
+        </div>
+          <div class="comment">
+            <p class="user--comment">
+              <strong class="user--name-bold">Kimberly Smith</strong>
+              commented on your picture
+            </p>
+            <div class="user--comment-pic">
+              <img src="./assets/images/image-chess.webp" alt="img">
+            </div>
+            <div class="time">
+              <p>1 week ago</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="user bg-none hide-skew">
+          <div class="user--img">
+          <img
+            src="./assets/images/avatar-nathan-peterson.webp"
+            alt="mark"
+          />
+        </div>
+          <div class="comment">
+            <p class="user--comment">
+              <strong class="user--name-bold">Nathan Peterson</strong>
+              reacted to your recent post 
+              <strong class="user--activity-bold">5 end-game strategies to increase your win rate</strong>
+            </p>
+            <div class="time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="user bg-none hide-skew">
+          <div class="user--img">
+          <img
+            src="./assets/images/avatar-anna-kim.webp"
+            alt="mark"
+          />
+        </div>
+          <div class="comment">
+            <p class="user--comment">
+              <strong class="user--name-bold">Anna Kim</strong>
+              left the group
+              <strong class="user--activity-bold extra-bold">Chess Club</strong>
+            </p>
+            <div class="time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
